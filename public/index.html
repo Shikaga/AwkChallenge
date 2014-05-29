@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>New Development Project</title>
+
+		<script src="lib/socket.io.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="lib/jquery.js"></script>
+		<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="lib/react.js"></script>
+		<script type="text/javascript" src="lib/JSXTransformer.js"></script>
+		<script type="text/javascript" src="lib/awk_web.js"></script>
+		<script type="text/javascript" src="lib/underscore.js"></script>
+
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+
+		<script type="text/jsx" src="js/AwkChallenge.js"></script>
+		<script type="text/jsx" src="js/AwkInputBox.js"></script>
+		<script type="text/jsx" src="js/DataTable.js"></script>
+		<script type="text/jsx" src="js/ComparisonTable.js"></script>
+		<script type="text/jsx" src="js/DataRow.js"></script>
+		<script type="text/jsx" src="js/ComparisonRow.js"></script>
+		<script type="text/jsx" src="js/IntroductionPanel.js"></script>
+		<script type="text/jsx" src="js/ChallengeInterface.js"></script>
+		<script type="text/jsx" src="js/Challenges.js"></script>
+		<script type="text/jsx" src="js/MissionCompleteAlert.js"></script>
+		<script type="text/jsx" src="js/CompletePanel.js"></script>
+
+	</head>
+	<body>
+		<br/>
+	<div id="awkChallenge">
+	</div>
+
+	<script type="text/jsx">
+			/** @jsx React.DOM */
+			React.renderComponent(
+				<AwkChallenge/>,
+				document.getElementById('awkChallenge')
+			);
+		</script>
+	</body>
+</html>
